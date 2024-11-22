@@ -1,8 +1,8 @@
 import React from 'react'
-
 const molds = () => {
              
     const moldData = [
+
        { id: 1, name: "donut", price:80, description:"cake mold donut", image:'/mould 2.webp'},
        { id: 1, name: "donut", price:80, description:"cake mold donut", image:'/mould 3.webp'},
        { id: 1, name: "donut", price:80, description:"cake mold donut", image:'/image 6.webp'},
