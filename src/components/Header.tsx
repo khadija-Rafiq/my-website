@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FaShoppingCart } from 'react-icons/fa';
 
+
 const Header = () => {
   return (
     <header className="header">
@@ -26,10 +27,15 @@ const Header = () => {
         </Link>
         <Link href="/contact">
           Contact
-        </Link>
-        <FaShoppingCart style={{ color: 'white', fontSize: '20px' }} />
+         </Link>
+        
+        
+
+        <FaShoppingCart style={{ color: 'white', fontSize: '20px'}} />
+        
       </nav>
     </header>
+    
   );
 };
 

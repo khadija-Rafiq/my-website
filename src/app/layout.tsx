@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { CartProvider } from "./context/CartContext";
 //import About from "./about/page";
 
 
@@ -30,9 +31,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <CartProvider>
         <Header />
         {children}
         <Footer />
+        </CartProvider>
       </body>
     </html>
   );
