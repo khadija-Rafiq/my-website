@@ -1,4 +1,4 @@
-import CommentSection from "@/components/Comment";
+
 import { client } from "@/sanity/lib/client";
 
 export default async function MoldsPage({ params }) {
@@ -32,7 +32,6 @@ console.log(params);
             <button>Add to Cart</button>
           </div>
         ))}
-        <CommentSection />
       </div>
     </div>
     
